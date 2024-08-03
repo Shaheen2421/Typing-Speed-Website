@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body{
+    color: white;
+    background-color: black;
+}
+/* Navigation Bar */
+.navbar{
+    background-color: rgb(7, 7, 155);
+    color: aliceblue;
+    font-size: 1.3rem;
+    text-align: center;    
+}
+.navbar li{
+    padding: 12px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/* Container */
+.container{
+    text-align: center;
+    margin: 22px;
+    font-size: 1.4rem;
+}
+.header{
+    display: grid;
+    grid-template-columns:repeat(4,2fr);
+    border: 2px solid white;
+    border-radius: 12px;
+    margin: 20px;
+    padding: 15px;
+    box-shadow: 5px 5px 5px white;
+    transition: all .3s ease-in-out;
+}
+.header:hover{
+    background-color: white;
+    color: black;
+    box-shadow: 10px 10px 10px rgb(7, 7, 155);
+}
+.timer{
+    display: inline-block;
+    border-radius: 12px;
+    font-size: 1.4rem;
+    margin: 12px;
+    padding: 20px;
+    border: 2px solid white;
+    box-shadow: 5px 5px 5px white;
+    transition: all .3s ease-in-out;
+}
+.timer:hover{
+    background-color: white;
+    color: black;
+    box-shadow: 10px 10px 10px rgb(7, 7, 155);
+}
+.quotearea{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    padding: 20px;
+}
+.quotearea button{
+    background-color: rgb(7, 7, 155);
+    color: white;
+    font-size: 1.2rem;
+    padding: 5px;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+.quotearea button:hover{
+    background-color: white;
+    color: black;
+    border: 2px solid greenyellow;
+}
+.input_area{
+    margin: 12px;
+    padding: 22px;
+    font-size: 1.3rem;
+    color:rgb(7, 7, 155);
+}
+.incorrect_char {
+    color: red;
+    text-decoration: underline;
+}
+   
+.correct_char {
+    color: darkgreen;
+}
